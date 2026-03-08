@@ -1,0 +1,19 @@
+interface Props {
+  className?: string
+}
+
+export function Logo({ className }: Props) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 570 346"
+      fill="currentColor"
+      className={className}
+      aria-hidden="true"
+    >
+      <polygon points="161,0 2,172 161,344 207,294 94,172 207,50" />
+      <polygon points="210,70 277,70 277,208 365,208 365,275 210,275" />
+      <polygon points="409,0 568,172 409,344 363,294 476,172 363,50" />
+    </svg>
+  )
+}

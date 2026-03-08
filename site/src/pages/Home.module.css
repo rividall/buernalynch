@@ -1,0 +1,65 @@
+.intro {
+  padding: 0 15%;
+  margin-top: var(--section-gap);
+  text-align: center;
+}
+
+.introTitle {
+  font-size: clamp(30px, 5vw, 40px);
+  margin-bottom: 16px;
+}
+
+.introText {
+  font-size: 25px;
+  line-height: 1.6;
+  color: var(--color-text-muted);
+}
+
+.section {
+  padding: 0 15%;
+  margin-top: var(--section-gap);
+}
+
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.projectGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--card-gap);
+}
+
+.recentScroll {
+  display: flex;
+  gap: 24px;
+  overflow-x: auto;
+  padding-bottom: 16px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-border) transparent;
+}
+
+@media (max-width: 1023px) {
+  .projectGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+  .section {
+    padding: 0 var(--page-padding-mobile);
+    margin-top: 48px;
+  }
+
+  .intro {
+    padding: 0 var(--page-padding-mobile);
+    margin-top: 48px;
+  }
+
+  .projectGrid {
+    grid-template-columns: 1fr;
+  }
+}

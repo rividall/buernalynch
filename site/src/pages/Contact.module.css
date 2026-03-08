@@ -1,0 +1,49 @@
+.page {
+  max-width: var(--page-max-width);
+  margin: 0 auto;
+  padding: 48px var(--page-padding-desktop);
+}
+
+.info {
+  margin-top: 32px;
+}
+
+.row {
+  display: flex;
+  gap: 16px;
+  align-items: baseline;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.label {
+  font-size: 14px;
+  color: var(--color-text-dim);
+  min-width: 80px;
+}
+
+.value {
+  font-size: 16px;
+  color: var(--color-text);
+}
+
+.value a {
+  color: var(--color-text);
+}
+
+.social {
+  display: flex;
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.socialLink {
+  color: var(--color-text);
+  font-size: 16px;
+}
+
+@media (max-width: 767px) {
+  .page {
+    padding: 32px var(--page-padding-mobile);
+  }
+}

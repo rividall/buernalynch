@@ -1,0 +1,63 @@
+.page {
+  padding: 48px var(--page-padding-desktop);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 48px;
+  margin-top: 32px;
+}
+
+.photo {
+  width: 100%;
+  border-radius: 0;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.education {
+  margin-top: 32px;
+}
+
+.educationTitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 16px;
+}
+
+.educationItem {
+  font-size: 14px;
+  color: var(--color-text-muted);
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+.bio {
+  color: var(--color-text-muted);
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+.bio p {
+  margin-bottom: 24px;
+}
+
+@media (max-width: 767px) {
+  .page {
+    padding: 32px var(--page-padding-mobile);
+  }
+
+  .layout {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}

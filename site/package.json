@@ -1,0 +1,40 @@
+{
+  "name": "site",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "predev": "tsx scripts/build-content.ts",
+    "dev": "vite",
+    "prebuild": "tsx scripts/optimize-images.ts && tsx scripts/build-content.ts",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "optimize-images": "tsx scripts/optimize-images.ts",
+    "build-content": "tsx scripts/build-content.ts"
+  },
+  "dependencies": {
+    "@fontsource/dm-sans": "^5.2.8",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^7.13.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/node": "^24.12.0",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "gray-matter": "^4.0.3",
+    "marked": "^17.0.4",
+    "sharp": "^0.34.5",
+    "tsx": "^4.21.0",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.48.0",
+    "vite": "^7.3.1"
+  }
+}

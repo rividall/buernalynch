@@ -1,0 +1,6 @@
+node_modules
+dist
+public/media
+src/content/generated
+.DS_Store
+*.log
