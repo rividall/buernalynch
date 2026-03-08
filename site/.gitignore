@@ -14,7 +14,7 @@ dist-ssr
 
 # Generated content (rebuilt from wp-content source)
 public/media/
-src/content/generated/
+# src/content/generated/ is tracked — small metadata files needed for Docker build
 
 # Source media (SCP'd directly to server)
 content/media/
