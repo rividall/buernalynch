@@ -13,12 +13,11 @@ COPY src/ src/
 COPY public/ public/
 COPY index.html tsconfig*.json vite.config.ts ./
 
-# Build content metadata then Vite build (image optimization done locally)
-RUN npx tsx scripts/build-content.ts && \
-    echo "=== image-manifest.ts line count ===" && \
-    wc -l src/content/generated/image-manifest.ts && \
-    head -12 src/content/generated/image-manifest.ts && \
-    npm run build
+# Build content metadata then Vite build
+# NOTE: We call tsc + vite directly instead of "npm run build" because
+# npm auto-runs "prebuild" which re-runs optimize-images.ts with no source
+# images, overwriting the pre-generated image-manifest.ts with an empty one.
+RUN npx tsx scripts/build-content.ts && npx tsc -b && npx vite build
 
 # Stage 2: Serve
 FROM nginx:alpine
