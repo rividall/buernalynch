@@ -1,0 +1,1176 @@
+{
+  "futbowl": [
+    {
+      "original": "2023-04_82008881_622145635186965_8475678746710376448_n.jpg",
+      "new": "futbowl/00-cover.jpg",
+      "role": "cover",
+      "sourceUrl": "2023-04/82008881_622145635186965_8475678746710376448_n.jpg"
+    },
+    {
+      "original": "2023-04_image-1.png",
+      "new": "futbowl/01-image-1.png",
+      "role": "content",
+      "sourceUrl": "2023-04/image-1.png"
+    },
+    {
+      "original": "2023-04_buenalynch.jpeg",
+      "new": "futbowl/02-buenalynch.jpeg",
+      "role": "content",
+      "sourceUrl": "2023-04/buenalynch.jpeg"
+    },
+    {
+      "original": "2023-04_futbowl5.png",
+      "new": "futbowl/03-futbowl5.png",
+      "role": "content",
+      "sourceUrl": "2023-04/futbowl5.png"
+    },
+    {
+      "original": "2023-04_futbowl4.png",
+      "new": "futbowl/04-futbowl4.png",
+      "role": "content",
+      "sourceUrl": "2023-04/futbowl4.png"
+    },
+    {
+      "original": "2023-04_futbowl3.png",
+      "new": "futbowl/05-futbowl3.png",
+      "role": "content",
+      "sourceUrl": "2023-04/futbowl3.png"
+    },
+    {
+      "original": "2023-04_img_2708.jpg",
+      "new": "futbowl/06-img-2708.jpg",
+      "role": "content",
+      "sourceUrl": "2023-04/img_2708.jpg"
+    },
+    {
+      "original": "2023-04_futbowl2.png",
+      "new": "futbowl/07-futbowl2.png",
+      "role": "content",
+      "sourceUrl": "2023-04/futbowl2.png"
+    },
+    {
+      "original": "2023-04_futbowl1.png",
+      "new": "futbowl/08-futbowl1.png",
+      "role": "content",
+      "sourceUrl": "2023-04/futbowl1.png"
+    },
+    {
+      "original": "2023-04_img_2660.jpg",
+      "new": "futbowl/09-img-2660.jpg",
+      "role": "content",
+      "sourceUrl": "2023-04/img_2660.jpg"
+    },
+    {
+      "original": "2023-04_img_2082.jpg",
+      "new": "futbowl/10-img-2082.jpg",
+      "role": "content",
+      "sourceUrl": "2023-04/img_2082.jpg"
+    }
+  ],
+  "fim": [
+    {
+      "original": "2023-04_image-2.png",
+      "new": "fim/00-cover.png",
+      "role": "cover",
+      "sourceUrl": "2023-04/image-2.png"
+    },
+    {
+      "original": "2023-04_img_3893.jpg",
+      "new": "fim/01-img-3893.jpg",
+      "role": "content",
+      "sourceUrl": "2023-04/img_3893.jpg"
+    },
+    {
+      "original": "2023-04_img_3903.jpg",
+      "new": "fim/02-img-3903.jpg",
+      "role": "content",
+      "sourceUrl": "2023-04/img_3903.jpg"
+    },
+    {
+      "original": "2023-04_img_3808.jpg",
+      "new": "fim/03-img-3808.jpg",
+      "role": "content",
+      "sourceUrl": "2023-04/img_3808.jpg"
+    },
+    {
+      "original": "2023-04_img_3863.jpg",
+      "new": "fim/04-img-3863.jpg",
+      "role": "content",
+      "sourceUrl": "2023-04/img_3863.jpg"
+    },
+    {
+      "original": "2023-04_fims-fabric_1.jpg",
+      "new": "fim/05-fims-fabric-1.jpg",
+      "role": "content",
+      "sourceUrl": "2023-04/fims-fabric_1.jpg"
+    },
+    {
+      "original": "2023-04_fimmechs.jpg",
+      "new": "fim/06-fimmechs.jpg",
+      "role": "content",
+      "sourceUrl": "2023-04/fimmechs.jpg"
+    },
+    {
+      "original": "2023-04_fims-fabric.jpg",
+      "new": "fim/07-fims-fabric.jpg",
+      "role": "content",
+      "sourceUrl": "2023-04/fims-fabric.jpg"
+    },
+    {
+      "original": "2023-04_fimppl.jpg",
+      "new": "fim/08-fimppl.jpg",
+      "role": "content",
+      "sourceUrl": "2023-04/fimppl.jpg"
+    },
+    {
+      "original": "2023-04_metrocomp.png",
+      "new": "fim/09-metrocomp.png",
+      "role": "content",
+      "sourceUrl": "2023-04/metrocomp.png"
+    },
+    {
+      "original": "2023-04_frame3.png",
+      "new": "fim/10-frame3.png",
+      "role": "content",
+      "sourceUrl": "2023-04/frame3.png"
+    },
+    {
+      "original": "2023-04_frame1.png",
+      "new": "fim/11-frame1.png",
+      "role": "content",
+      "sourceUrl": "2023-04/frame1.png"
+    },
+    {
+      "original": "2023-04_maq1.png",
+      "new": "fim/12-maq1.png",
+      "role": "content",
+      "sourceUrl": "2023-04/maq1.png"
+    },
+    {
+      "original": "2023-04_maq2.png",
+      "new": "fim/13-maq2.png",
+      "role": "content",
+      "sourceUrl": "2023-04/maq2.png"
+    },
+    {
+      "original": "2023-04_part2.png",
+      "new": "fim/14-part2.png",
+      "role": "content",
+      "sourceUrl": "2023-04/part2.png"
+    },
+    {
+      "original": "2023-04_frame2.png",
+      "new": "fim/15-frame2.png",
+      "role": "content",
+      "sourceUrl": "2023-04/frame2.png"
+    },
+    {
+      "original": "2023-04_part1.png",
+      "new": "fim/16-part1.png",
+      "role": "content",
+      "sourceUrl": "2023-04/part1.png"
+    },
+    {
+      "original": "2023-04_stgo-siemens_-base-motores_18_04.jpg",
+      "new": "fim/17-stgo-siemens-base-motores-18-04.jpg",
+      "role": "content",
+      "sourceUrl": "2023-04/stgo-siemens_-base-motores_18_04.jpg"
+    },
+    {
+      "original": "2023-04_screen-shot-2023-04-18-at-08.04.41.png",
+      "new": "fim/18-screen-shot-2023-04-18-at-08.04.41.png",
+      "role": "content",
+      "sourceUrl": "2023-04/screen-shot-2023-04-18-at-08.04.41.png"
+    }
+  ],
+  "experiencias-docentes-en-1000-palabras": [
+    {
+      "original": "2023-04_expdoc2.png",
+      "new": "experiencias-docentes-en-1000-palabras/00-cover.png",
+      "role": "cover",
+      "sourceUrl": "2023-04/expdoc2.png"
+    },
+    {
+      "original": "2023-04_expdoc1.png",
+      "new": "experiencias-docentes-en-1000-palabras/01-expdoc1.png",
+      "role": "content",
+      "sourceUrl": "2023-04/expdoc1.png"
+    }
+  ],
+  "ecosofia-environmental-monitoring-in-patagonia": [
+    {
+      "original": "2023-04_firefly_photofrom-the-distance-you-can-see-a-small-solar-powered-environmental-measuring-antena-with-a-macbook-in-patagonia_art_82344si.jpg",
+      "new": "ecosofia-environmental-monitoring-in-patagonia/00-cover.jpg",
+      "role": "cover",
+      "sourceUrl": "2023-04/firefly_photofrom-the-distance-you-can-see-a-small-solar-powered-environmental-measuring-antena-with-a-macbook-in-patagonia_art_82344si.jpg"
+    },
+    {
+      "original": "2023-04_image-5.png",
+      "new": "ecosofia-environmental-monitoring-in-patagonia/01-image-5.png",
+      "role": "content",
+      "sourceUrl": "2023-04/image-5.png"
+    },
+    {
+      "original": "2023-04_image-10.png",
+      "new": "ecosofia-environmental-monitoring-in-patagonia/02-image-10.png",
+      "role": "content",
+      "sourceUrl": "2023-04/image-10.png"
+    },
+    {
+      "original": "2023-04_image-4.png",
+      "new": "ecosofia-environmental-monitoring-in-patagonia/03-image-4.png",
+      "role": "content",
+      "sourceUrl": "2023-04/image-4.png"
+    },
+    {
+      "original": "2023-04_image-6.png",
+      "new": "ecosofia-environmental-monitoring-in-patagonia/04-image-6.png",
+      "role": "content",
+      "sourceUrl": "2023-04/image-6.png"
+    },
+    {
+      "original": "2023-04_image-7.png",
+      "new": "ecosofia-environmental-monitoring-in-patagonia/05-image-7.png",
+      "role": "content",
+      "sourceUrl": "2023-04/image-7.png"
+    },
+    {
+      "original": "2023-04_image-8.png",
+      "new": "ecosofia-environmental-monitoring-in-patagonia/06-image-8.png",
+      "role": "content",
+      "sourceUrl": "2023-04/image-8.png"
+    },
+    {
+      "original": "2023-04_image-9.png",
+      "new": "ecosofia-environmental-monitoring-in-patagonia/07-image-9.png",
+      "role": "content",
+      "sourceUrl": "2023-04/image-9.png"
+    },
+    {
+      "original": "2023-04_image-11.png",
+      "new": "ecosofia-environmental-monitoring-in-patagonia/08-image-11.png",
+      "role": "content",
+      "sourceUrl": "2023-04/image-11.png"
+    },
+    {
+      "original": "2023-04_image-3.png",
+      "new": "ecosofia-environmental-monitoring-in-patagonia/09-image-3.png",
+      "role": "content",
+      "sourceUrl": "2023-04/image-3.png"
+    }
+  ],
+  "ch_ar_acter": [
+    {
+      "original": "2023-04_image-13.png",
+      "new": "ch_ar_acter/00-cover.png",
+      "role": "cover",
+      "sourceUrl": "2023-04/image-13.png"
+    },
+    {
+      "original": "2023-04_image-14.png",
+      "new": "ch_ar_acter/01-image-14.png",
+      "role": "content",
+      "sourceUrl": "2023-04/image-14.png"
+    },
+    {
+      "original": "2023-04_image-15.png",
+      "new": "ch_ar_acter/02-image-15.png",
+      "role": "content",
+      "sourceUrl": "2023-04/image-15.png"
+    },
+    {
+      "original": "2023-04_image-16.png",
+      "new": "ch_ar_acter/03-image-16.png",
+      "role": "content",
+      "sourceUrl": "2023-04/image-16.png"
+    },
+    {
+      "original": "2023-04_image-17.png",
+      "new": "ch_ar_acter/04-image-17.png",
+      "role": "content",
+      "sourceUrl": "2023-04/image-17.png"
+    },
+    {
+      "original": "2023-04_image-18.png",
+      "new": "ch_ar_acter/05-image-18.png",
+      "role": "content",
+      "sourceUrl": "2023-04/image-18.png"
+    },
+    {
+      "original": "2023-04_image-19.png",
+      "new": "ch_ar_acter/06-image-19.png",
+      "role": "content",
+      "sourceUrl": "2023-04/image-19.png"
+    },
+    {
+      "original": "2023-04_image-20.png",
+      "new": "ch_ar_acter/07-image-20.png",
+      "role": "content",
+      "sourceUrl": "2023-04/image-20.png"
+    },
+    {
+      "original": "2023-04_image-21.png",
+      "new": "ch_ar_acter/08-image-21.png",
+      "role": "content",
+      "sourceUrl": "2023-04/image-21.png"
+    },
+    {
+      "original": "2023-04_image-22.png",
+      "new": "ch_ar_acter/09-image-22.png",
+      "role": "content",
+      "sourceUrl": "2023-04/image-22.png"
+    },
+    {
+      "original": "2023-04_image-23.png",
+      "new": "ch_ar_acter/10-image-23.png",
+      "role": "content",
+      "sourceUrl": "2023-04/image-23.png"
+    },
+    {
+      "original": "2023-04_image-24.png",
+      "new": "ch_ar_acter/11-image-24.png",
+      "role": "content",
+      "sourceUrl": "2023-04/image-24.png"
+    },
+    {
+      "original": "2023-04_image-25.png",
+      "new": "ch_ar_acter/12-image-25.png",
+      "role": "content",
+      "sourceUrl": "2023-04/image-25.png"
+    },
+    {
+      "original": "2023-04_image-26.png",
+      "new": "ch_ar_acter/13-image-26.png",
+      "role": "content",
+      "sourceUrl": "2023-04/image-26.png"
+    },
+    {
+      "original": "2023-04_image-29.png",
+      "new": "ch_ar_acter/14-image-29.png",
+      "role": "content",
+      "sourceUrl": "2023-04/image-29.png"
+    }
+  ],
+  "3d-planes-animations": [
+    {
+      "original": "2023-04_screen-shot-2023-04-24-at-00.00.35.png",
+      "new": "3d-planes-animations/00-cover.png",
+      "role": "cover",
+      "sourceUrl": "2023-04/screen-shot-2023-04-24-at-00.00.35.png"
+    }
+  ],
+  "painting": [
+    {
+      "original": "2023-04_screen-shot-2023-04-19-at-23.00.44.png",
+      "new": "painting/00-cover.png",
+      "role": "cover",
+      "sourceUrl": "2023-04/screen-shot-2023-04-19-at-23.00.44.png"
+    },
+    {
+      "original": "2023-04_screen-shot-2023-04-19-at-23.05.50.png",
+      "new": "painting/01-screen-shot-2023-04-19-at-23.05.50.png",
+      "role": "content",
+      "sourceUrl": "2023-04/screen-shot-2023-04-19-at-23.05.50.png"
+    },
+    {
+      "original": "2023-04_screen-shot-2023-04-19-at-23.05.36.png",
+      "new": "painting/02-screen-shot-2023-04-19-at-23.05.36.png",
+      "role": "content",
+      "sourceUrl": "2023-04/screen-shot-2023-04-19-at-23.05.36.png"
+    }
+  ],
+  "arforismos-udd": [
+    {
+      "original": "2023-04_captura-de-pantalla-2023-04-24-a-las-01.04.15.png",
+      "new": "arforismos-udd/00-cover.png",
+      "role": "cover",
+      "sourceUrl": "2023-04/captura-de-pantalla-2023-04-24-a-las-01.04.15.png"
+    },
+    {
+      "original": "2023-04_image-31.png",
+      "new": "arforismos-udd/01-image-31.png",
+      "role": "content",
+      "sourceUrl": "2023-04/image-31.png"
+    }
+  ],
+  "biodesign-industry-week": [
+    {
+      "original": "2024-01_biodesign-industry-week7.jpg",
+      "new": "biodesign-industry-week/00-cover.jpg",
+      "role": "cover",
+      "sourceUrl": "2024-01/biodesign-industry-week7.jpg"
+    },
+    {
+      "original": "2024-01_biodesign-industry-week2-1.png",
+      "new": "biodesign-industry-week/01-biodesign-industry-week2-1.png",
+      "role": "content",
+      "sourceUrl": "2024-01/biodesign-industry-week2-1.png"
+    },
+    {
+      "original": "2024-01_biodesign-industry-week1-1.png",
+      "new": "biodesign-industry-week/02-biodesign-industry-week1-1.png",
+      "role": "content",
+      "sourceUrl": "2024-01/biodesign-industry-week1-1.png"
+    },
+    {
+      "original": "2024-01_biodesign-industry-week5.jpg",
+      "new": "biodesign-industry-week/03-biodesign-industry-week5.jpg",
+      "role": "content",
+      "sourceUrl": "2024-01/biodesign-industry-week5.jpg"
+    },
+    {
+      "original": "2024-01_biodesign-industry-week3.jpg",
+      "new": "biodesign-industry-week/04-biodesign-industry-week3.jpg",
+      "role": "content",
+      "sourceUrl": "2024-01/biodesign-industry-week3.jpg"
+    },
+    {
+      "original": "2024-01_biodesign-industry-week6.jpg",
+      "new": "biodesign-industry-week/05-biodesign-industry-week6.jpg",
+      "role": "content",
+      "sourceUrl": "2024-01/biodesign-industry-week6.jpg"
+    },
+    {
+      "original": "2024-01_image.png",
+      "new": "biodesign-industry-week/06-image.png",
+      "role": "content",
+      "sourceUrl": "2024-01/image.png"
+    },
+    {
+      "original": "2024-01_biodesign-industry-week8.jpg",
+      "new": "biodesign-industry-week/07-biodesign-industry-week8.jpg",
+      "role": "content",
+      "sourceUrl": "2024-01/biodesign-industry-week8.jpg"
+    },
+    {
+      "original": "2024-01_biodesign-industry-week9.jpg",
+      "new": "biodesign-industry-week/08-biodesign-industry-week9.jpg",
+      "role": "content",
+      "sourceUrl": "2024-01/biodesign-industry-week9.jpg"
+    },
+    {
+      "original": "2024-01_biodesign-industry-week15.jpg",
+      "new": "biodesign-industry-week/09-biodesign-industry-week15.jpg",
+      "role": "content",
+      "sourceUrl": "2024-01/biodesign-industry-week15.jpg"
+    },
+    {
+      "original": "2024-01_biodesign-industry-week12.jpg",
+      "new": "biodesign-industry-week/10-biodesign-industry-week12.jpg",
+      "role": "content",
+      "sourceUrl": "2024-01/biodesign-industry-week12.jpg"
+    },
+    {
+      "original": "2024-01_biodesign-industry-week13.jpg",
+      "new": "biodesign-industry-week/11-biodesign-industry-week13.jpg",
+      "role": "content",
+      "sourceUrl": "2024-01/biodesign-industry-week13.jpg"
+    },
+    {
+      "original": "2024-01_biodesign-industry-week11.jpg",
+      "new": "biodesign-industry-week/12-biodesign-industry-week11.jpg",
+      "role": "content",
+      "sourceUrl": "2024-01/biodesign-industry-week11.jpg"
+    },
+    {
+      "original": "2024-01_biodesign-industry-week14.jpg",
+      "new": "biodesign-industry-week/13-biodesign-industry-week14.jpg",
+      "role": "content",
+      "sourceUrl": "2024-01/biodesign-industry-week14.jpg"
+    }
+  ],
+  "robotina-no-code-textile-electronics": [
+    {
+      "original": "2024-01_image-3.png",
+      "new": "robotina-no-code-textile-electronics/00-cover.png",
+      "role": "cover",
+      "sourceUrl": "2024-01/image-3.png"
+    },
+    {
+      "original": "2024-01_unknown.jpeg",
+      "new": "robotina-no-code-textile-electronics/01-unknown.jpeg",
+      "role": "content",
+      "sourceUrl": "2024-01/unknown.jpeg"
+    },
+    {
+      "original": "2024-01_image-1.png",
+      "new": "robotina-no-code-textile-electronics/02-image-1.png",
+      "role": "content",
+      "sourceUrl": "2024-01/image-1.png"
+    },
+    {
+      "original": "2024-01_image-5.png",
+      "new": "robotina-no-code-textile-electronics/03-image-5.png",
+      "role": "content",
+      "sourceUrl": "2024-01/image-5.png"
+    },
+    {
+      "original": "2024-01_image-6.png",
+      "new": "robotina-no-code-textile-electronics/04-image-6.png",
+      "role": "content",
+      "sourceUrl": "2024-01/image-6.png"
+    }
+  ],
+  "about": [
+    {
+      "original": "2023-04_vrmodelling-edited.png",
+      "new": "about/01-vrmodelling-edited.png",
+      "role": "content",
+      "sourceUrl": "2023-04/vrmodelling-edited.png"
+    },
+    {
+      "original": "2025-01_vidalricardo_es_cv-2.pdf",
+      "new": "about/02-vidalricardo-es-cv-2.pdf",
+      "role": "content",
+      "sourceUrl": "2025-01/vidalricardo_es_cv-2.pdf"
+    },
+    {
+      "original": "2025-01_vidalricardo_en_cv-2.pdf",
+      "new": "about/03-vidalricardo-en-cv-2.pdf",
+      "role": "content",
+      "sourceUrl": "2025-01/vidalricardo_en_cv-2.pdf"
+    }
+  ],
+  "_unsorted": [
+    {
+      "original": "2023-04_certificado-seminario-ar.png",
+      "new": "_unsorted/certificado-seminario-ar.png"
+    },
+    {
+      "original": "2023-04_ecosophia1.png",
+      "new": "_unsorted/ecosophia1.png"
+    },
+    {
+      "original": "2023-04_ecosophia2.jpg",
+      "new": "_unsorted/ecosophia2.jpg"
+    },
+    {
+      "original": "2023-04_ecosophia3.png",
+      "new": "_unsorted/ecosophia3.png"
+    },
+    {
+      "original": "2023-04_ecosophia4.jpg",
+      "new": "_unsorted/ecosophia4.jpg"
+    },
+    {
+      "original": "2023-04_ecosophia5.png",
+      "new": "_unsorted/ecosophia5.png"
+    },
+    {
+      "original": "2023-04_experiencias-docentes-2021_web_3108.pdf",
+      "new": "_unsorted/experiencias-docentes-2021-web-3108.pdf"
+    },
+    {
+      "original": "2023-04_fims-fabric-edited.jpg",
+      "new": "_unsorted/fims-fabric-edited.jpg"
+    },
+    {
+      "original": "2023-04_futbowl5-edited.png",
+      "new": "_unsorted/futbowl5-edited.png"
+    },
+    {
+      "original": "2023-04_image-12.png",
+      "new": "_unsorted/image-12.png"
+    },
+    {
+      "original": "2023-04_image-27.png",
+      "new": "_unsorted/image-27.png"
+    },
+    {
+      "original": "2023-04_image-28.png",
+      "new": "_unsorted/image-28.png"
+    },
+    {
+      "original": "2023-04_image-30.png",
+      "new": "_unsorted/image-30.png"
+    },
+    {
+      "original": "2023-04_image.png",
+      "new": "_unsorted/image.png"
+    },
+    {
+      "original": "2023-04_img_2707.jpg",
+      "new": "_unsorted/img-2707.jpg"
+    },
+    {
+      "original": "2023-04_img_2771.jpg",
+      "new": "_unsorted/img-2771.jpg"
+    },
+    {
+      "original": "2023-04_img_3706.jpg",
+      "new": "_unsorted/img-3706.jpg"
+    },
+    {
+      "original": "2023-04_img_3728.jpg",
+      "new": "_unsorted/img-3728.jpg"
+    },
+    {
+      "original": "2023-04_img_3731.jpg",
+      "new": "_unsorted/img-3731.jpg"
+    },
+    {
+      "original": "2023-04_img_3745.jpg",
+      "new": "_unsorted/img-3745.jpg"
+    },
+    {
+      "original": "2023-04_img_3915.jpg",
+      "new": "_unsorted/img-3915.jpg"
+    },
+    {
+      "original": "2023-04_lynch-lockerstallerudd.jpg",
+      "new": "_unsorted/lynch-lockerstallerudd.jpg"
+    },
+    {
+      "original": "2023-04_muebles1_2020-03-06-18-06-231.png",
+      "new": "_unsorted/muebles1-2020-03-06-18-06-231.png"
+    },
+    {
+      "original": "2023-04_muebles1_2020-03-06-18-06-27.png",
+      "new": "_unsorted/muebles1-2020-03-06-18-06-27.png"
+    },
+    {
+      "original": "2023-04_screen-shot-2023-04-18-at-08.36.46-2.png",
+      "new": "_unsorted/screen-shot-2023-04-18-at-08.36.46-2.png"
+    },
+    {
+      "original": "2023-04_screen-shot-2023-04-18-at-08.36.55.png",
+      "new": "_unsorted/screen-shot-2023-04-18-at-08.36.55.png"
+    },
+    {
+      "original": "2023-04_vector-1.png",
+      "new": "_unsorted/vector-1.png"
+    },
+    {
+      "original": "2023-04_vector-11.png",
+      "new": "_unsorted/vector-11.png"
+    },
+    {
+      "original": "2023-04_vrmodelling.png",
+      "new": "_unsorted/vrmodelling.png"
+    },
+    {
+      "original": "2024-01_biodesign-industry-week1.png",
+      "new": "_unsorted/biodesign-industry-week1.png"
+    },
+    {
+      "original": "2024-01_biodesign-industry-week10.jpg",
+      "new": "_unsorted/biodesign-industry-week10.jpg"
+    },
+    {
+      "original": "2024-01_biodesign-industry-week2.png",
+      "new": "_unsorted/biodesign-industry-week2.png"
+    },
+    {
+      "original": "2024-01_image-2.png",
+      "new": "_unsorted/image-2.png"
+    },
+    {
+      "original": "2024-01_image-4.png",
+      "new": "_unsorted/image-4.png"
+    },
+    {
+      "original": "2024-01_resumen-c2b7-innovacion-textil-material.pdf",
+      "new": "_unsorted/resumen-c2b7-innovacion-textil-material.pdf"
+    },
+    {
+      "original": "2025-01_en_portoflio-lynch.pdf",
+      "new": "_unsorted/en-portoflio-lynch.pdf"
+    },
+    {
+      "original": "2025-01_es_portfolio-lynch.pdf",
+      "new": "_unsorted/es-portfolio-lynch.pdf"
+    },
+    {
+      "original": "82008881_622145635186965_8475678746710376448_n.jpg",
+      "new": "_unsorted/82008881-622145635186965-8475678746710376448-n.jpg"
+    },
+    {
+      "original": "biodesign-industry-week1-1.png",
+      "new": "_unsorted/biodesign-industry-week1-1.png"
+    },
+    {
+      "original": "biodesign-industry-week1.png",
+      "new": "_unsorted/biodesign-industry-week1-dup.png"
+    },
+    {
+      "original": "biodesign-industry-week10.jpg",
+      "new": "_unsorted/biodesign-industry-week10-dup.jpg"
+    },
+    {
+      "original": "biodesign-industry-week11.jpg",
+      "new": "_unsorted/biodesign-industry-week11.jpg"
+    },
+    {
+      "original": "biodesign-industry-week12.jpg",
+      "new": "_unsorted/biodesign-industry-week12.jpg"
+    },
+    {
+      "original": "biodesign-industry-week13.jpg",
+      "new": "_unsorted/biodesign-industry-week13.jpg"
+    },
+    {
+      "original": "biodesign-industry-week14.jpg",
+      "new": "_unsorted/biodesign-industry-week14.jpg"
+    },
+    {
+      "original": "biodesign-industry-week15.jpg",
+      "new": "_unsorted/biodesign-industry-week15.jpg"
+    },
+    {
+      "original": "biodesign-industry-week2-1.png",
+      "new": "_unsorted/biodesign-industry-week2-1.png"
+    },
+    {
+      "original": "biodesign-industry-week2.png",
+      "new": "_unsorted/biodesign-industry-week2-dup.png"
+    },
+    {
+      "original": "biodesign-industry-week3.jpg",
+      "new": "_unsorted/biodesign-industry-week3.jpg"
+    },
+    {
+      "original": "biodesign-industry-week5.jpg",
+      "new": "_unsorted/biodesign-industry-week5.jpg"
+    },
+    {
+      "original": "biodesign-industry-week6.jpg",
+      "new": "_unsorted/biodesign-industry-week6.jpg"
+    },
+    {
+      "original": "biodesign-industry-week7.jpg",
+      "new": "_unsorted/biodesign-industry-week7.jpg"
+    },
+    {
+      "original": "biodesign-industry-week8.jpg",
+      "new": "_unsorted/biodesign-industry-week8.jpg"
+    },
+    {
+      "original": "biodesign-industry-week9.jpg",
+      "new": "_unsorted/biodesign-industry-week9.jpg"
+    },
+    {
+      "original": "buenalynch.jpeg",
+      "new": "_unsorted/buenalynch.jpeg"
+    },
+    {
+      "original": "captura-de-pantalla-2023-04-24-a-las-01.04.15.png",
+      "new": "_unsorted/captura-de-pantalla-2023-04-24-a-las-01.04.15.png"
+    },
+    {
+      "original": "certificado-seminario-ar.png",
+      "new": "_unsorted/certificado-seminario-ar-dup.png"
+    },
+    {
+      "original": "ecosophia1.png",
+      "new": "_unsorted/ecosophia1-dup.png"
+    },
+    {
+      "original": "ecosophia2.jpg",
+      "new": "_unsorted/ecosophia2-dup.jpg"
+    },
+    {
+      "original": "ecosophia3.png",
+      "new": "_unsorted/ecosophia3-dup.png"
+    },
+    {
+      "original": "ecosophia4.jpg",
+      "new": "_unsorted/ecosophia4-dup.jpg"
+    },
+    {
+      "original": "ecosophia5.png",
+      "new": "_unsorted/ecosophia5-dup.png"
+    },
+    {
+      "original": "en_portoflio-lynch.pdf",
+      "new": "_unsorted/en-portoflio-lynch-dup.pdf"
+    },
+    {
+      "original": "es_portfolio-lynch.pdf",
+      "new": "_unsorted/es-portfolio-lynch-dup.pdf"
+    },
+    {
+      "original": "expdoc1.png",
+      "new": "_unsorted/expdoc1.png"
+    },
+    {
+      "original": "expdoc2.png",
+      "new": "_unsorted/expdoc2.png"
+    },
+    {
+      "original": "experiencias-docentes-2021_web_3108.pdf",
+      "new": "_unsorted/experiencias-docentes-2021-web-3108-dup.pdf"
+    },
+    {
+      "original": "fimmechs.jpg",
+      "new": "_unsorted/fimmechs.jpg"
+    },
+    {
+      "original": "fimppl.jpg",
+      "new": "_unsorted/fimppl.jpg"
+    },
+    {
+      "original": "fims-fabric-edited.jpg",
+      "new": "_unsorted/fims-fabric-edited-dup.jpg"
+    },
+    {
+      "original": "fims-fabric.jpg",
+      "new": "_unsorted/fims-fabric.jpg"
+    },
+    {
+      "original": "fims-fabric_1.jpg",
+      "new": "_unsorted/fims-fabric-1.jpg"
+    },
+    {
+      "original": "firefly_photofrom-the-distance-you-can-see-a-small-solar-powered-environmental-measuring-antena-with-a-macbook-in-patagonia_art_82344si.jpg",
+      "new": "_unsorted/firefly-photofrom-the-distance-you-can-see-a-small-solar-powered-environmental-measuring-antena-with-a-macbook-in-patagonia-art-82344si.jpg"
+    },
+    {
+      "original": "frame-511.png",
+      "new": "_unsorted/frame-511.png"
+    },
+    {
+      "original": "frame1.png",
+      "new": "_unsorted/frame1.png"
+    },
+    {
+      "original": "frame2.png",
+      "new": "_unsorted/frame2.png"
+    },
+    {
+      "original": "frame3.png",
+      "new": "_unsorted/frame3.png"
+    },
+    {
+      "original": "futbowl1.png",
+      "new": "_unsorted/futbowl1.png"
+    },
+    {
+      "original": "futbowl2.png",
+      "new": "_unsorted/futbowl2.png"
+    },
+    {
+      "original": "futbowl3.png",
+      "new": "_unsorted/futbowl3.png"
+    },
+    {
+      "original": "futbowl4.png",
+      "new": "_unsorted/futbowl4.png"
+    },
+    {
+      "original": "futbowl5-edited.png",
+      "new": "_unsorted/futbowl5-edited-dup.png"
+    },
+    {
+      "original": "futbowl5.png",
+      "new": "_unsorted/futbowl5.png"
+    },
+    {
+      "original": "image-1.png",
+      "new": "_unsorted/image-1.png"
+    },
+    {
+      "original": "image-10.png",
+      "new": "_unsorted/image-10.png"
+    },
+    {
+      "original": "image-11.png",
+      "new": "_unsorted/image-11.png"
+    },
+    {
+      "original": "image-12.png",
+      "new": "_unsorted/image-12-dup.png"
+    },
+    {
+      "original": "image-13.png",
+      "new": "_unsorted/image-13.png"
+    },
+    {
+      "original": "image-14.png",
+      "new": "_unsorted/image-14.png"
+    },
+    {
+      "original": "image-15.png",
+      "new": "_unsorted/image-15.png"
+    },
+    {
+      "original": "image-16.png",
+      "new": "_unsorted/image-16.png"
+    },
+    {
+      "original": "image-17.png",
+      "new": "_unsorted/image-17.png"
+    },
+    {
+      "original": "image-18.png",
+      "new": "_unsorted/image-18.png"
+    },
+    {
+      "original": "image-19.png",
+      "new": "_unsorted/image-19.png"
+    },
+    {
+      "original": "image-2.png",
+      "new": "_unsorted/image-2-dup.png"
+    },
+    {
+      "original": "image-20.png",
+      "new": "_unsorted/image-20.png"
+    },
+    {
+      "original": "image-21.png",
+      "new": "_unsorted/image-21.png"
+    },
+    {
+      "original": "image-22.png",
+      "new": "_unsorted/image-22.png"
+    },
+    {
+      "original": "image-23.png",
+      "new": "_unsorted/image-23.png"
+    },
+    {
+      "original": "image-24.png",
+      "new": "_unsorted/image-24.png"
+    },
+    {
+      "original": "image-25.png",
+      "new": "_unsorted/image-25.png"
+    },
+    {
+      "original": "image-26.png",
+      "new": "_unsorted/image-26.png"
+    },
+    {
+      "original": "image-27.png",
+      "new": "_unsorted/image-27-dup.png"
+    },
+    {
+      "original": "image-28.png",
+      "new": "_unsorted/image-28-dup.png"
+    },
+    {
+      "original": "image-29.png",
+      "new": "_unsorted/image-29.png"
+    },
+    {
+      "original": "image-3.png",
+      "new": "_unsorted/image-3.png"
+    },
+    {
+      "original": "image-30.png",
+      "new": "_unsorted/image-30-dup.png"
+    },
+    {
+      "original": "image-31.png",
+      "new": "_unsorted/image-31.png"
+    },
+    {
+      "original": "image-4.png",
+      "new": "_unsorted/image-4-dup.png"
+    },
+    {
+      "original": "image-5.png",
+      "new": "_unsorted/image-5.png"
+    },
+    {
+      "original": "image-6.png",
+      "new": "_unsorted/image-6.png"
+    },
+    {
+      "original": "image-7.png",
+      "new": "_unsorted/image-7.png"
+    },
+    {
+      "original": "image-8.png",
+      "new": "_unsorted/image-8.png"
+    },
+    {
+      "original": "image-9.png",
+      "new": "_unsorted/image-9.png"
+    },
+    {
+      "original": "image.png",
+      "new": "_unsorted/image-dup.png"
+    },
+    {
+      "original": "img_2082.jpg",
+      "new": "_unsorted/img-2082.jpg"
+    },
+    {
+      "original": "img_2660.jpg",
+      "new": "_unsorted/img-2660.jpg"
+    },
+    {
+      "original": "img_2707.jpg",
+      "new": "_unsorted/img-2707-dup.jpg"
+    },
+    {
+      "original": "img_2708.jpg",
+      "new": "_unsorted/img-2708.jpg"
+    },
+    {
+      "original": "img_2771.jpg",
+      "new": "_unsorted/img-2771-dup.jpg"
+    },
+    {
+      "original": "img_3706.jpg",
+      "new": "_unsorted/img-3706-dup.jpg"
+    },
+    {
+      "original": "img_3728.jpg",
+      "new": "_unsorted/img-3728-dup.jpg"
+    },
+    {
+      "original": "img_3731.jpg",
+      "new": "_unsorted/img-3731-dup.jpg"
+    },
+    {
+      "original": "img_3745.jpg",
+      "new": "_unsorted/img-3745-dup.jpg"
+    },
+    {
+      "original": "img_3808.jpg",
+      "new": "_unsorted/img-3808.jpg"
+    },
+    {
+      "original": "img_3863.jpg",
+      "new": "_unsorted/img-3863.jpg"
+    },
+    {
+      "original": "img_3893.jpg",
+      "new": "_unsorted/img-3893.jpg"
+    },
+    {
+      "original": "img_3903.jpg",
+      "new": "_unsorted/img-3903.jpg"
+    },
+    {
+      "original": "img_3915.jpg",
+      "new": "_unsorted/img-3915-dup.jpg"
+    },
+    {
+      "original": "lynch-lockerstallerudd.jpg",
+      "new": "_unsorted/lynch-lockerstallerudd-dup.jpg"
+    },
+    {
+      "original": "maq1.png",
+      "new": "_unsorted/maq1.png"
+    },
+    {
+      "original": "maq2.png",
+      "new": "_unsorted/maq2.png"
+    },
+    {
+      "original": "metrocomp.png",
+      "new": "_unsorted/metrocomp.png"
+    },
+    {
+      "original": "muebles1_2020-03-06-18-06-231.png",
+      "new": "_unsorted/muebles1-2020-03-06-18-06-231-dup.png"
+    },
+    {
+      "original": "muebles1_2020-03-06-18-06-27.png",
+      "new": "_unsorted/muebles1-2020-03-06-18-06-27-dup.png"
+    },
+    {
+      "original": "ot1rvidal-es.jpg",
+      "new": "_unsorted/ot1rvidal-es.jpg"
+    },
+    {
+      "original": "ot2rvidal-es.jpg",
+      "new": "_unsorted/ot2rvidal-es.jpg"
+    },
+    {
+      "original": "part1.png",
+      "new": "_unsorted/part1.png"
+    },
+    {
+      "original": "part2.png",
+      "new": "_unsorted/part2.png"
+    },
+    {
+      "original": "resumen-c2b7-innovacion-textil-material.pdf",
+      "new": "_unsorted/resumen-c2b7-innovacion-textil-material-dup.pdf"
+    },
+    {
+      "original": "screen-shot-2023-04-18-at-08.04.41.png",
+      "new": "_unsorted/screen-shot-2023-04-18-at-08.04.41.png"
+    },
+    {
+      "original": "screen-shot-2023-04-18-at-08.36.46-2.png",
+      "new": "_unsorted/screen-shot-2023-04-18-at-08.36.46-2-dup.png"
+    },
+    {
+      "original": "screen-shot-2023-04-18-at-08.36.55.png",
+      "new": "_unsorted/screen-shot-2023-04-18-at-08.36.55-dup.png"
+    },
+    {
+      "original": "screen-shot-2023-04-19-at-23.00.44.png",
+      "new": "_unsorted/screen-shot-2023-04-19-at-23.00.44.png"
+    },
+    {
+      "original": "screen-shot-2023-04-19-at-23.05.36.png",
+      "new": "_unsorted/screen-shot-2023-04-19-at-23.05.36.png"
+    },
+    {
+      "original": "screen-shot-2023-04-19-at-23.05.50.png",
+      "new": "_unsorted/screen-shot-2023-04-19-at-23.05.50.png"
+    },
+    {
+      "original": "screen-shot-2023-04-24-at-00.00.35.png",
+      "new": "_unsorted/screen-shot-2023-04-24-at-00.00.35.png"
+    },
+    {
+      "original": "stgo-siemens_-base-motores_18_04.jpg",
+      "new": "_unsorted/stgo-siemens-base-motores-18-04.jpg"
+    },
+    {
+      "original": "unknown.jpeg",
+      "new": "_unsorted/unknown.jpeg"
+    },
+    {
+      "original": "vector-1.png",
+      "new": "_unsorted/vector-1-dup.png"
+    },
+    {
+      "original": "vector-11.png",
+      "new": "_unsorted/vector-11-dup.png"
+    },
+    {
+      "original": "vidalricardo_en_cv-2.pdf",
+      "new": "_unsorted/vidalricardo-en-cv-2.pdf"
+    },
+    {
+      "original": "vidalricardo_es_cv-2.pdf",
+      "new": "_unsorted/vidalricardo-es-cv-2.pdf"
+    },
+    {
+      "original": "vrmodelling-edited.png",
+      "new": "_unsorted/vrmodelling-edited.png"
+    },
+    {
+      "original": "vrmodelling.png",
+      "new": "_unsorted/vrmodelling-dup.png"
+    }
+  ],
+  "outthinkwebsite": [
+    {
+      "original": "2025-01_ot1rvidal-es.jpg",
+      "new": "outthinkwebsite/00-cover.jpg",
+      "role": "cover",
+      "sourceUrl": "2025-01/ot1rvidal-es.jpg"
+    },
+    {
+      "original": "2025-01_frame-511.png",
+      "new": "outthinkwebsite/01-frame-511.png",
+      "role": "content",
+      "sourceUrl": "2025-01/frame-511.png"
+    },
+    {
+      "original": "2025-01_ot2rvidal-es.jpg",
+      "new": "outthinkwebsite/02-ot2rvidal-es.jpg",
+      "role": "content",
+      "sourceUrl": "2025-01/ot2rvidal-es.jpg"
+    }
+  ]
+}
