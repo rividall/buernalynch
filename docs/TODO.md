@@ -9,7 +9,7 @@ Whenever visiting this page to look for info on how to perform a task, remember 
 
 ## Pending
 
-- [ ] **[Infra] Dockerize** — Multi-stage build (node build stage, nginx serve stage), docker-compose, Cloudflare Tunnel
+- [ ] **[Bug] CV PDF downloads return 403** — PDFs at `/media/about/*.pdf` exist in `public/media/` but nginx returns 403 Forbidden. Likely a file permissions issue inside the Docker image.
 - [ ] **[SEO] Open Graph + structured data** — Meta tags for social sharing, JSON-LD for search engines
 - [ ] **[i18n] Multilingual EN/ES** — Content exists in both languages, needs routing and switcher
 - [ ] **[Feature] Contact form** — Third-party service or custom backend endpoint
@@ -17,8 +17,6 @@ Whenever visiting this page to look for info on how to perform a task, remember 
 - [ ] **[Style] Mobile menu polish** — Hamburger animation, transition on menu open/close
 - [ ] **[Style] Footer visual adjustments** — Match original WP footer layout more closely
 - [ ] **[A11y] Accessibility audit** — Alt text coverage, focus states, skip-to-content testing
-- [ ] **[Perf] Lazy loading** — Intersection Observer for below-fold images
-- [ ] **[Style] Projects page margins** — Apply 15% margin consistency to `/projects` grid page
 
 ---
 
@@ -30,3 +28,4 @@ Whenever visiting this page to look for info on how to perform a task, remember 
 - [x] **[Frontend] Phase 1 scaffold** DONE (2026-03-08) — Vite + React + TS project, all pages, components, content pipeline, image optimization pipeline, responsive design.
 - [x] **[Style] Visual polish round 1** DONE (2026-03-08) — Logo fix (inline SVG), hero grid labels (centered, white, bold, underlined, 80% image opacity), nav sizing (22px text, 15% margins, 48px padding), intro section on home, 15% margins on home sections, category page title 3x size with 48px margins, dropdown hover gap fix.
 - [x] **[Structure] wp-content migration** DONE (2026-03-08) — Moved active content (posts/, pages/, categories.json, media/) from `wp-content/` into `site/content/`. Updated build scripts. Deleted `wp-content/` and all unused WP artifacts (site.json, posts.json, pages.json, tags.json, attachments.json, media-urls.txt). Site is now fully self-contained under `site/`.
+- [x] **[Infra] Dockerize & Deploy** DONE (2026-03-08) — Multi-stage Docker build (node:22-slim → nginx:alpine), docker-compose on Raspberry Pi, Cloudflare Tunnel. Media gitignored, optimized locally with Sharp, SCP'd to Pi. Site live at buenalynch.com. Key gotcha: Dockerfile calls `tsc` + `vite build` directly (not `npm run build`) to avoid `prebuild` lifecycle overwriting `image-manifest.ts`.
