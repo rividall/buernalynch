@@ -9,6 +9,10 @@ export function Blog() {
     <div className={styles.page}>
       <h1>Blog</h1>
       <div className={styles.list}>
+        <a href="/cowork-guide" className={styles.item}>
+          <span className={styles.date}>Feb 2026</span>
+          <span className={styles.title}>Give Claude a Memory — A Guide to CLAUDE.md in Cowork</span>
+        </a>
         {posts.map(post => {
           const date = new Date(post.date).toLocaleDateString('en-US', {
             year: 'numeric',
