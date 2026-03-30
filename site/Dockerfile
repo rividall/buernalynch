@@ -23,4 +23,6 @@ RUN npx tsx scripts/build-content.ts && npx tsc -b && npx vite build
 FROM nginx:alpine
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=build /app/dist /usr/share/nginx/html
+# Ensure all static files are readable by nginx worker
+RUN chmod -R a+r /usr/share/nginx/html
 EXPOSE 80

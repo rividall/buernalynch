@@ -3,6 +3,14 @@ import path from 'path'
 import matter from 'gray-matter'
 import { marked } from 'marked'
 
+// Add loading="lazy" to all inline images for performance
+const renderer = new marked.Renderer()
+renderer.image = ({ href, title, text }) => {
+  const titleAttr = title ? ` title="${title}"` : ''
+  return `<img src="${href}" alt="${text}"${titleAttr} loading="lazy">`
+}
+marked.use({ renderer })
+
 const CONTENT_DIR = path.resolve(import.meta.dirname, '../content')
 const POSTS_DIR = path.join(CONTENT_DIR, 'posts')
 const PAGES_DIR = path.join(CONTENT_DIR, 'pages')
