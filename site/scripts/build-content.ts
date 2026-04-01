@@ -3,14 +3,6 @@ import path from 'path'
 import matter from 'gray-matter'
 import { marked } from 'marked'
 
-// Add loading="lazy" to all inline images for performance
-const renderer = new marked.Renderer()
-renderer.image = ({ href, title, text }) => {
-  const titleAttr = title ? ` title="${title}"` : ''
-  return `<img src="${href}" alt="${text}"${titleAttr} loading="lazy">`
-}
-marked.use({ renderer })
-
 const CONTENT_DIR = path.resolve(import.meta.dirname, '../content')
 const POSTS_DIR = path.join(CONTENT_DIR, 'posts')
 const PAGES_DIR = path.join(CONTENT_DIR, 'pages')
@@ -31,6 +23,18 @@ if (fs.existsSync(imageManifestPath)) {
     imageManifestData = JSON.parse(match[1])
   }
 }
+
+// Add loading="lazy" and dimensions to all inline images for proper lazy loading
+const renderer = new marked.Renderer()
+renderer.image = ({ href, title, text }) => {
+  const titleAttr = title ? ` title="${title}"` : ''
+  // Look up dimensions from image manifest (keys are without /media/ prefix)
+  const manifestKey = href.replace(/^\/media\//, '')
+  const info = imageManifestData[manifestKey]
+  const dimAttrs = info ? ` width="${info.width}" height="${info.height}"` : ''
+  return `<img src="${href}" alt="${text}"${titleAttr}${dimAttrs} loading="lazy">`
+}
+marked.use({ renderer })
 
 // Build a lookup: filename -> { slug, manifestEntry }
 const filenameLookup = new Map<string, { slug: string; newPath: string }>()

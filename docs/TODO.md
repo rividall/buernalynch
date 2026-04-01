@@ -9,7 +9,6 @@ Whenever visiting this page to look for info on how to perform a task, remember 
 
 ## Pending
 
-- [ ] **[Bug] CV PDF downloads return 403** — PDFs at `/media/about/*.pdf` exist in `public/media/` but nginx returns 403 Forbidden. Likely a file permissions issue inside the Docker image.
 - [ ] **[SEO] Open Graph + structured data** — Meta tags for social sharing, JSON-LD for search engines
 - [ ] **[i18n] Multilingual EN/ES** — Content exists in both languages, needs routing and switcher
 - [ ] **[Feature] Contact form** — Third-party service or custom backend endpoint
@@ -22,6 +21,7 @@ Whenever visiting this page to look for info on how to perform a task, remember 
 
 ## Done
 
+- [X] **[Bug] CV PDF downloads return 403** — PDFs at `/media/about/*.pdf` exist in `public/media/` but nginx returns 403 Forbidden. Likely a file permissions issue inside the Docker image.
 - [x] **[Content] WordPress extraction** DONE (2026-03-08) — Exported all content via WXR XML + media tarball. Parsed into structured JSON + markdown with frontmatter. Organized media into per-post folders with sequential naming. Removed 118 confirmed duplicates. Renamed 527 post to outthinkwebsite.
 - [x] **[Style] Identify exact font** DONE (2026-03-08) — DM Sans (Google Fonts, Open Font License). Used across all text in the WP theme. STYLEGUIDE.md updated.
 - [x] **[Assets] Convert logo to SVG** DONE (2026-03-08) — Traced PNG pixel boundaries with Python/NumPy, built SVG from exact polygon coordinates. 97.6% pixel-accurate match. Single file: `_unsorted/logo.svg` using `currentColor` for CSS theming.
