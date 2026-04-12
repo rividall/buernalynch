@@ -1,7 +1,9 @@
 import { Link } from 'react-router-dom'
+import { PageTransition } from '@/components/PageTransition/PageTransition'
 
 export function NotFound() {
   return (
+    <PageTransition>
     <div style={{ padding: '96px 64px', textAlign: 'center' }}>
       <h1>404</h1>
       <p style={{ marginTop: 16, color: 'var(--color-text-muted)' }}>
@@ -14,5 +16,6 @@ export function NotFound() {
         ← Back to home
       </Link>
     </div>
+    </PageTransition>
   )
 }

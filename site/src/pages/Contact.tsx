@@ -1,14 +1,16 @@
+import { PageTransition } from '@/components/PageTransition/PageTransition'
 import styles from './Contact.module.css'
 
 export function Contact() {
   return (
+    <PageTransition>
     <div className={styles.page}>
       <h1>Contact</h1>
       <div className={styles.info}>
         <div className={styles.row}>
           <span className={styles.label}>Email</span>
           <span className={styles.value}>
-            <a href="mailto:rividall@gmail.com">rividall@gmail.com</a>
+            <a href="mailto:rvlynch9@gmail.com">rvlynch9@gmail.com</a>
           </span>
         </div>
         <div className={styles.row}>
@@ -17,10 +19,10 @@ export function Contact() {
         </div>
       </div>
       <div className={styles.social}>
-        <a href="https://www.linkedin.com/in/ricardovidallynch/" className={styles.socialLink} target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/ricardo-vidal-lynch-318b4621a/" className={styles.socialLink} target="_blank" rel="noopener noreferrer">
           LinkedIn
         </a>
-        <a href="https://www.instagram.com/buenalynch/" className={styles.socialLink} target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/buena_lynch/" className={styles.socialLink} target="_blank" rel="noopener noreferrer">
           Instagram
         </a>
         <a href="https://www.youtube.com/@buenalynch" className={styles.socialLink} target="_blank" rel="noopener noreferrer">
@@ -28,5 +30,6 @@ export function Contact() {
         </a>
       </div>
     </div>
+    </PageTransition>
   )
 }

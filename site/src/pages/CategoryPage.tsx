@@ -1,5 +1,6 @@
 import { useParams, Link } from 'react-router-dom'
 import { OptimizedImage } from '@/components/OptimizedImage/OptimizedImage'
+import { PageTransition } from '@/components/PageTransition/PageTransition'
 import { useCategoryBySlug } from '@/hooks/useContent'
 import { posts } from '@/content/generated/posts'
 import { NotFound } from './NotFound'
@@ -14,6 +15,7 @@ export function CategoryPage() {
   const filtered = posts.filter(p => p.categories.includes(category.name))
 
   return (
+    <PageTransition>
     <div className={styles.page}>
       <h1 className={styles.pageTitle}>{category.name}</h1>
       {category.description && (
@@ -33,5 +35,6 @@ export function CategoryPage() {
         ))}
       </div>
     </div>
+    </PageTransition>
   )
 }

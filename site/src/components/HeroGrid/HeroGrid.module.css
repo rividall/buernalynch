@@ -8,6 +8,10 @@
 .cell {
   position: relative;
   overflow: hidden;
+}
+
+.cellLink {
+  display: block;
   text-decoration: none;
 }
 

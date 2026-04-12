@@ -1,5 +1,6 @@
 import { useParams, Link, useLocation } from 'react-router-dom'
 import { OptimizedImage } from '@/components/OptimizedImage/OptimizedImage'
+import { PageTransition } from '@/components/PageTransition/PageTransition'
 import { usePost } from '@/hooks/useContent'
 import { NotFound } from './NotFound'
 import styles from './ProjectDetail.module.css'
@@ -28,6 +29,7 @@ export function ProjectDetail() {
   )
 
   return (
+    <PageTransition>
     <article>
       <div className={styles.content}>
         <Link to={backPath} className={styles.backLink}>{backLabel}</Link>
@@ -47,5 +49,6 @@ export function ProjectDetail() {
         />
       </div>
     </article>
+    </PageTransition>
   )
 }

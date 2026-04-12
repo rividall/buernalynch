@@ -17,16 +17,16 @@ export function Footer() {
         <div>
           <h3 className={styles.columnTitle}>Find me on the wwweb!</h3>
           <div className={styles.socialLinks}>
-            <a href="https://www.linkedin.com/in/ricardovidallynch/" className={styles.socialLink} target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/ricardo-vidal-lynch-318b4621a/" className={styles.socialLink} target="_blank" rel="noopener noreferrer">
               LinkedIn
             </a>
-            <a href="https://www.instagram.com/buenalynch/" className={styles.socialLink} target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/buena_lynch/" className={styles.socialLink} target="_blank" rel="noopener noreferrer">
               Instagram
             </a>
             <a href="https://www.youtube.com/@buenalynch" className={styles.socialLink} target="_blank" rel="noopener noreferrer">
               YouTube
             </a>
-            <a href="mailto:rividall@gmail.com" className={styles.socialLink}>
+            <a href="mailto:rvlynch9@gmail.com" className={styles.socialLink}>
               Email
             </a>
           </div>

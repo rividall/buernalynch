@@ -2,6 +2,7 @@ import { HeroGrid } from '@/components/HeroGrid/HeroGrid'
 import { ProjectCard } from '@/components/ProjectCard/ProjectCard'
 import { PostCard } from '@/components/PostCard/PostCard'
 import { Button } from '@/components/Button/Button'
+import { PageTransition } from '@/components/PageTransition/PageTransition'
 import { getProjectPosts, getRecentPosts } from '@/hooks/useContent'
 import styles from './Home.module.css'
 
@@ -10,7 +11,7 @@ export function Home() {
   const recent = getRecentPosts(6)
 
   return (
-    <>
+    <PageTransition>
       <HeroGrid />
 
       <section className={styles.intro}>
@@ -43,6 +44,6 @@ export function Home() {
           ))}
         </div>
       </section>
-    </>
+    </PageTransition>
   )
 }

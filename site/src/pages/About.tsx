@@ -1,4 +1,5 @@
 import { Button } from '@/components/Button/Button'
+import { PageTransition } from '@/components/PageTransition/PageTransition'
 import styles from './About.module.css'
 
 const EDUCATION = [
@@ -9,6 +10,7 @@ const EDUCATION = [
 
 export function About() {
   return (
+    <PageTransition>
     <div className={styles.page}>
       <h1>About me</h1>
       <div className={styles.layout}>
@@ -51,5 +53,6 @@ export function About() {
         </div>
       </div>
     </div>
+    </PageTransition>
   )
 }
