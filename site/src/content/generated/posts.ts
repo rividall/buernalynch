@@ -3,6 +3,26 @@ import type { Post } from '@/types/content'
 
 export const posts: Post[] = [
   {
+    "slug": "arduino-checklist",
+    "title": "Arduino Troubleshooting Checklist",
+    "date": "2026-03-01 00:00:00",
+    "categories": [
+      "Blog"
+    ],
+    "tags": [],
+    "featuredImage": {
+      "fallback": "/media/arduino-checklist/00-cover.png",
+      "srcSet": "/media/arduino-checklist/00-cover-400w.webp 400w, /media/arduino-checklist/00-cover-800w.webp 800w, /media/arduino-checklist/00-cover-1200w.webp 1200w",
+      "alt": "Arduino Troubleshooting Checklist",
+      "width": 1526,
+      "height": 1376
+    },
+    "contentHtml": "<p>An interactive checklist to troubleshoot Arduino projects.</p>\n",
+    "excerpt": "An interactive checklist to troubleshoot Arduino projects.",
+    "featured": false,
+    "externalUrl": "/arduino-checklist.html"
+  },
+  {
     "slug": "cowork-guide",
     "title": "Give Claude a Memory — A Guide to CLAUDE.md in Cowork",
     "date": "2026-02-01 00:00:00",

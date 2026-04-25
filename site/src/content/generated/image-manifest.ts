@@ -7,6 +7,12 @@ export interface ImageInfo {
 }
 
 export const imageManifest: Record<string, ImageInfo> = {
+  "arduino-checklist/00-cover.png": {
+    "fallback": "/media/arduino-checklist/00-cover.png",
+    "srcSet": "/media/arduino-checklist/00-cover-400w.webp 400w, /media/arduino-checklist/00-cover-800w.webp 800w, /media/arduino-checklist/00-cover-1200w.webp 1200w",
+    "width": 1526,
+    "height": 1376
+  },
   "cowork-guide/00-cover.png": {
     "fallback": "/media/cowork-guide/00-cover.png",
     "srcSet": "/media/cowork-guide/00-cover-400w.webp 400w, /media/cowork-guide/00-cover-800w.webp 800w, /media/cowork-guide/00-cover-1200w.webp 1200w",

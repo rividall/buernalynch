@@ -1,4 +1,12 @@
 {
+  "arduino-checklist": [
+    {
+      "original": "arduino.png",
+      "new": "arduino-checklist/00-cover.png",
+      "role": "cover",
+      "sourceUrl": "arduino.png"
+    }
+  ],
   "cowork-guide": [
     {
       "original": "claude.png",
