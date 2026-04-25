@@ -19,20 +19,16 @@ export function PostCard({ post }: Props) {
     </>
   )
 
-  if (post.externalUrl) {
+  if (isExternal) {
     return (
-      <a
-        href={post.externalUrl}
-        className={styles.card}
-        {...(isExternal ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
-      >
+      <a href={post.externalUrl} className={styles.card} target="_blank" rel="noopener noreferrer">
         {inner}
       </a>
     )
   }
 
   return (
-    <Link to={`/projects/${post.slug}`} className={styles.card}>
+    <Link to={post.externalUrl ?? `/projects/${post.slug}`} className={styles.card}>
       {inner}
     </Link>
   )

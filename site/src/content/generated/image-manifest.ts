@@ -10,14 +10,14 @@ export const imageManifest: Record<string, ImageInfo> = {
   "arduino-checklist/00-cover.png": {
     "fallback": "/media/arduino-checklist/00-cover.png",
     "srcSet": "/media/arduino-checklist/00-cover-400w.webp 400w, /media/arduino-checklist/00-cover-800w.webp 800w, /media/arduino-checklist/00-cover-1200w.webp 1200w",
-    "width": 1526,
-    "height": 1376
+    "width": 1360,
+    "height": 1314
   },
   "cowork-guide/00-cover.png": {
     "fallback": "/media/cowork-guide/00-cover.png",
     "srcSet": "/media/cowork-guide/00-cover-400w.webp 400w, /media/cowork-guide/00-cover-800w.webp 800w, /media/cowork-guide/00-cover-1200w.webp 1200w",
-    "width": 1224,
-    "height": 1080
+    "width": 1262,
+    "height": 1166
   },
   "futbowl/00-cover.jpg": {
     "fallback": "/media/futbowl/00-cover.jpg",

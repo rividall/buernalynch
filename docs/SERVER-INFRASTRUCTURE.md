@@ -5,6 +5,7 @@ Last updated: 2026-04-24
 ## Machine
 
 - **Server**: cepelynvault
+- **SSH hostname**: cepelynvault-local
 - **Tunnel**: buenalynch
 
 ## This App
