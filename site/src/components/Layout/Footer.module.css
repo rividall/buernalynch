@@ -78,4 +78,9 @@
     grid-template-columns: 1fr;
     gap: 32px;
   }
+
+  .left {
+    align-items: flex-start;
+    text-align: left;
+  }
 }
