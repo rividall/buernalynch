@@ -8,6 +8,7 @@ import { ProjectDetail } from '@/pages/ProjectDetail'
 import { Blog } from '@/pages/Blog'
 import { CategoryPage } from '@/pages/CategoryPage'
 import { Contact } from '@/pages/Contact'
+import { HtmlPage } from '@/pages/HtmlPage'
 import { NotFound } from '@/pages/NotFound'
 
 export function App() {
@@ -23,6 +24,8 @@ export function App() {
           <Route path="blog" element={<Blog />} />
           <Route path="blog/:slug" element={<ProjectDetail />} />
           <Route path="category/:slug" element={<CategoryPage />} />
+          <Route path="cowork-guide" element={<HtmlPage src="/cowork-guide.html" />} />
+          <Route path="arduino-checklist" element={<HtmlPage src="/arduino-checklist.html" />} />
           <Route path="contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Route>

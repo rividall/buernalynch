@@ -3,7 +3,7 @@ title: "Give Claude a Memory — A Guide to CLAUDE.md in Cowork"
 slug: "cowork-guide"
 date: "2026-02-01 00:00:00"
 categories: ["Blog"]
-externalUrl: "/cowork-guide.html"
+externalUrl: "/cowork-guide"
 featured: false
 featuredImage: "./media/claude.png"
 ---

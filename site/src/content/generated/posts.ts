@@ -20,7 +20,7 @@ export const posts: Post[] = [
     "contentHtml": "<p>An interactive checklist to troubleshoot Arduino projects.</p>\n",
     "excerpt": "An interactive checklist to troubleshoot Arduino projects.",
     "featured": false,
-    "externalUrl": "/arduino-checklist.html"
+    "externalUrl": "/arduino-checklist"
   },
   {
     "slug": "cowork-guide",
@@ -40,7 +40,7 @@ export const posts: Post[] = [
     "contentHtml": "<p>How to use CLAUDE.md to give Claude persistent memory across sessions in Cowork.</p>\n",
     "excerpt": "How to use CLAUDE.md to give Claude persistent memory across sessions in Cowork.",
     "featured": false,
-    "externalUrl": "/cowork-guide.html"
+    "externalUrl": "/cowork-guide"
   },
   {
     "slug": "outthinkwebsite",
