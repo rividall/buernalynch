@@ -1,6 +1,6 @@
 # Portfolio (buenalynch.com) -- Server Infrastructure
 
-Last updated: 2026-04-24
+Last updated: 2026-04-26
 
 ## Machine
 
@@ -16,6 +16,30 @@ Last updated: 2026-04-24
 
 - **Subdomain**: buenalynch.com, www.buenalynch.com
 - **Content**: Static site (Vite + React + TypeScript build output)
+
+## Deployment
+
+### Build & run
+```
+sudo docker compose up -d --build
+```
+
+### Docker registry mirror (required — Cloudflare R2 blocked on this host)
+`/etc/docker/daemon.json`:
+```json
+{ "registry-mirrors": ["https://mirror.gcr.io"] }
+```
+Restart after changing: `sudo systemctl restart docker`
+
+### SCP media before building
+Optimized images are gitignored. Copy from local machine before each build that includes new images:
+```
+scp -r site/public/media/cowork-guide site/public/media/arduino-checklist lynch@cepelynvault-local:~/repositories/buenalynch/site/public/media/
+```
+For all media at once:
+```
+scp -r site/public/media/ lynch@cepelynvault-local:~/repositories/buenalynch/site/public/
+```
 
 ## Notes
 

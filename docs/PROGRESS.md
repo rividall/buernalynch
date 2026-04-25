@@ -40,7 +40,7 @@ Build plan for buenalynch.com portfolio. Each phase produces a runnable incremen
 ### Components Built
 - [x] `Logo` — Inline SVG (`currentColor` for CSS theming)
 - [x] `Nav` — Fixed top bar, Projects dropdown with categories, hamburger mobile menu
-- [x] `Footer` — 3-column (logo+tagline, social links, sitemap)
+- [x] `Footer` — 2-column (logo+mailto tagline, social links) transparent background
 - [x] `HeroGrid` — 3-column hero with hardcoded category images + centered labels
 - [x] `ProjectCard` — Image + title + excerpt card
 - [x] `PostCard` — Compact card for recent posts
@@ -48,11 +48,14 @@ Build plan for buenalynch.com portfolio. Each phase produces a runnable incremen
 - [x] `Button` — Outline style, supports `<Link>` or `<a>`
 
 ### Pages Built
-- [x] Home — HeroGrid + intro section + All projects + Recent Posts
+- [x] Home — HeroGrid + intro section + Selected Projects (featured flag) + Recent Posts
 - [x] Projects — "All projects" umbrella grid (Hardware + Academy + Software + Hobby)
+- [x] Personal — Personal projects grid (unlinked, /personal)
+- [x] CoworkGuide — Full React article with SVG charts + scrollspy side nav (/cowork-guide)
+- [x] ArduinoChecklist — Interactive reference with tabs + checklist (/arduino-checklist)
 - [x] CategoryPage — Filtered project list by category (large title)
 - [x] ProjectDetail — Featured image + prose content (h1 dedup, YouTube embeds)
-- [x] Blog — Post listing
+- [x] Blog — Post listing with excerpts, externalUrl support
 - [x] About — Bio page
 - [x] Contact — Contact info
 - [x] NotFound — 404 page
@@ -76,9 +79,21 @@ Build plan for buenalynch.com portfolio. Each phase produces a runnable incremen
 - [x] Migrate content from `wp-content/` into `site/content/` (self-contained app)
 - [x] Update build scripts to read from `site/content/` instead of `wp-content/`
 - [x] Delete `wp-content/` — no more WordPress dependency
+- [x] Nav: bottom fade gradient (::after pseudo-element, 24px)
+- [x] Nav: Projects dropdown — Hardware, Academy, Software, Hobby sub-items
+- [x] Dither background — global via Layout, parallax via UV shader offset (no element movement)
+- [x] Page transition back-button flicker fix (history.scrollRestoration = 'manual')
+- [x] Blog SPA navigation fix (plain <a> → React Router <Link> for internal routes)
+- [x] Footer: transparent bg, 2-col layout, "Let's work together!" → mailto link
+- [x] Home: intro section 144px top/bottom margin
+- [x] Section renames — Projects→Hardware, Visual Design→Software, Tech→Hobby
+- [x] Featured posts system — `featured` frontmatter + `getFeaturedPosts()` hook
+- [x] externalUrl posts — `externalUrl` frontmatter + content pipeline support
+- [x] Content pipeline — `externalUrl` + `featured` fields added to Post type
+- [x] CoworkGuide.tsx — pure SVG charts, scrollspy side nav, all content sections
+- [x] ArduinoChecklist.tsx — tab system, interactive checklist state, SVG background
 - [ ] Featured image inside content column (not full-bleed) on project detail
 - [ ] Mobile menu styling refinements
-- [ ] Footer visual adjustments
 
 ---
 
@@ -95,8 +110,9 @@ Build plan for buenalynch.com portfolio. Each phase produces a runnable incremen
 - [x] nginx.conf with gzip, asset caching, SPA fallback
 - [x] docker-compose setup (single service, port 80, restart unless-stopped)
 - [x] Configure Cloudflare Tunnel to point at the container
-- [x] Media gitignored — optimized locally, SCP'd to Pi, included in Docker build
+- [x] Media gitignored — optimized locally, SCP'd to cepelynvault-local, included in Docker build
 - [x] Site live at buenalynch.com
+- [x] Docker registry mirror → mirror.gcr.io (Cloudflare R2 blocked on host)
 
 ## Phase 3: Backend (if needed) **NOT STARTED**
 

@@ -11,7 +11,7 @@ Ricardo Vidal Lynch's portfolio. Vite + React + TypeScript, self-hosted.
 | Content     | Markdown/JSON prebuild pipeline → generated TypeScript  |
 | Images      | Sharp optimization (WebP 400/800/1200w + compressed)    |
 | Routing     | React Router v7 (SPA, client-side)                      |
-| Serving     | Nginx (Docker container on Raspberry Pi)                |
+| Serving     | Nginx (Docker container on cepelynvault-local)          |
 | Backend     | none (static site, content baked into build)             |
 
 ## Project Structure
@@ -48,8 +48,8 @@ portfolio/
 │   │   ├── optimize-images.ts  # Sharp pipeline → WebP variants + manifest
 │   │   └── build-content.ts    # Markdown/JSON → generated TypeScript modules
 │   └── src/
-│       ├── main.tsx            # Entry point
-│       ├── App.tsx             # Router setup (9 routes under Layout)
+│       ├── main.tsx            # Entry point (scrollRestoration=manual)
+│       ├── App.tsx             # Router setup (12 routes under Layout)
 │       ├── styles/
 │       │   ├── tokens.css      # CSS custom properties (colors, spacing)
 │       │   ├── reset.css       # CSS reset
@@ -66,9 +66,9 @@ portfolio/
 │       ├── components/
 │       │   ├── Logo.tsx            # Inline SVG <L> logo (currentColor)
 │       │   ├── Layout/
-│       │   │   ├── Layout.tsx      # Page wrapper (Nav + main + Footer)
+│       │   │   ├── Layout.tsx      # Page wrapper (Nav + main + Footer + global Dither)
 │       │   │   ├── Nav.tsx         # Fixed top nav + Projects dropdown + mobile menu
-│       │   │   └── Footer.tsx      # 3-column footer (logo, socials, sitemap)
+│       │   │   └── Footer.tsx      # 2-column footer (logo+mailto, socials) transparent bg
 │       │   ├── HeroGrid/
 │       │   │   └── HeroGrid.tsx    # 3-column hero with category overlays
 │       │   ├── ProjectCard/
@@ -80,15 +80,17 @@ portfolio/
 │       │   └── Button/
 │       │       └── Button.tsx      # Outline button (Link or <a>)
 │       └── pages/
-│           ├── Home.tsx            # HeroGrid + intro + All projects + Recent Posts
-│           ├── Projects.tsx        # All projects grid (umbrella across Hardware/Academy/Software/Hobby)
-│           ├── Personal.tsx        # Personal projects grid (route /personal, unlinked)
-│           ├── CategoryPage.tsx    # Filtered project list by category
-│           ├── ProjectDetail.tsx   # Single project view (prose content)
-│           ├── Blog.tsx            # Blog post listing
-│           ├── About.tsx           # Bio + CV downloads
-│           ├── Contact.tsx         # Contact info
-│           └── NotFound.tsx        # 404 page
+│           ├── Home.tsx              # HeroGrid + intro + Selected Projects + Recent Posts
+│           ├── Projects.tsx          # All projects grid (umbrella across Hardware/Academy/Software/Hobby)
+│           ├── Personal.tsx          # Personal projects grid (route /personal, unlinked)
+│           ├── CoworkGuide.tsx       # Cowork guide article (SVG charts, scrollspy nav)
+│           ├── ArduinoChecklist.tsx  # Arduino reference (tabs, interactive checklist)
+│           ├── CategoryPage.tsx      # Filtered project list by category
+│           ├── ProjectDetail.tsx     # Single project view (prose content)
+│           ├── Blog.tsx              # Blog post listing with excerpts
+│           ├── About.tsx             # Bio + CV downloads
+│           ├── Contact.tsx           # Contact info
+│           └── NotFound.tsx          # 404 page
 ```
 
 ### Media naming convention
@@ -99,25 +101,27 @@ Each post folder contains files numbered by order of appearance in the original 
 
 ### Content inventory
 
-**Posts (11)**
+**Posts (13)**
 
-| Slug | Categories |
-|------|-----------|
-| ecosofia-environmental-monitoring-in-patagonia | Hardware, Hobby |
-| biodesign-industry-week | Academy |
-| experiencias-docentes-en-1000-palabras | Academy |
-| fim | Academy, Hardware, Hobby |
-| ch_ar_acter | Academy, Hardware, Software |
-| futbowl | Hardware, Hobby |
-| robotina-no-code-textile-electronics | Academy, Sin categoría, Hobby |
-| arforismos-udd | Academy, Hardware, Software |
-| outthinkwebsite | Software |
-| painting | Software |
-| 3d-planes-animations | Software |
+| Slug | Categories | Featured |
+|------|-----------|---------|
+| outthinkwebsite | Software | ✓ |
+| robotina-no-code-textile-electronics | Academy, Hardware | ✓ |
+| biodesign-industry-week | Academy | ✓ |
+| arforismos-udd | Academy, Hardware, Software | ✓ |
+| ch_ar_acter | Academy, Software | ✓ |
+| fim | Academy, Hardware | ✓ |
+| ecosofia-environmental-monitoring-in-patagonia | Hardware, Hobby | |
+| futbowl | Hardware, Hobby | |
+| painting | Hobby | |
+| 3d-planes-animations | Hobby | |
+| experiencias-docentes-en-1000-palabras | Academy, Blog | |
+| cowork-guide | Blog | externalUrl: /cowork-guide |
+| arduino-checklist | Blog | externalUrl: /arduino-checklist |
 
 **Pages (10):** home, about, projects, hardware, academy, hobby, blog, contact, software, personal
 
-**Categories:** Academy, Blog, Projects (umbrella), Hardware, Hobby, Software, Personal projects. Hardware/Academy/Software are the three main sub-categories (HeroGrid tiles + nav dropdown). "Projects" is the umbrella shown as `/projects` "All projects" page. "Personal projects" exists but isn't linked from nav/footer/hero — `/personal` route only.
+**Categories (5):** Academy, Blog, Hardware, Hobby, Software. Hardware/Academy/Software are the three main sub-categories (HeroGrid tiles + nav dropdown). `/projects` is the "All projects" umbrella page.
 
 ## Architecture Notes
 
@@ -125,11 +129,11 @@ Each post folder contains files numbered by order of appearance in the original 
 - **Content pipeline**: `build-content.ts` reads `site/content/posts/` and `site/content/pages/` markdown files (gray-matter + marked), rewrites image URLs to local `/media/` paths, wraps bare YouTube URLs in responsive iframes, and outputs typed TypeScript modules (`posts.ts`, `pages.ts`, `categories.ts`).
 - **Image pipeline**: `optimize-images.ts` reads `site/content/media/manifest.json`, generates WebP at 400w/800w/1200w + compressed originals to `public/media/`, outputs `image-manifest.ts`. Caches by mtime, processes ~86 images.
 - **Styling**: CSS Modules for component-scoped styles, CSS custom properties in `tokens.css` for design tokens. No CSS framework — intentionally minimal.
-- **Routing**: React Router v7, 10 client-side routes: `/`, `/projects`, `/projects/:slug`, `/personal` (unlinked), `/category/:slug`, `/blog`, `/blog/:slug`, `/about`, `/contact`, plus 404.
-- **Backend pattern**: None. The content volume (11 posts, 8 pages) doesn't justify a CMS or API layer. When a backend makes sense, add a second container in docker-compose.
+- **Routing**: React Router v7, 12 client-side routes: `/`, `/projects`, `/projects/:slug`, `/personal` (unlinked), `/cowork-guide`, `/arduino-checklist`, `/category/:slug`, `/blog`, `/blog/:slug`, `/about`, `/contact`, plus 404.
+- **Backend pattern**: None. The content volume (13 posts, 10 pages) doesn't justify a CMS or API layer. When a backend makes sense, add a second container in docker-compose.
 - **Docker**: Multi-stage build (node:22-slim → nginx:alpine). Image optimization runs locally; Docker only runs `build-content.ts` + Vite. `npm run build` is NOT used in Docker because its `prebuild` lifecycle hook re-runs `optimize-images.ts` which would overwrite the pre-generated `image-manifest.ts`.
-- **Media deployment**: Source images and optimized images are gitignored (too large). Images are optimized locally with Sharp, then SCP'd to the Pi as `public/media/`. `manifest.json` and `src/content/generated/` are tracked in git (small metadata files).
-- **Infrastructure**: Raspberry Pi (aarch64), Cloudflare Tunnel for ingress, Docker for containerization.
+- **Media deployment**: Source images and optimized images are gitignored (too large). Images are optimized locally with Sharp, then SCP'd to cepelynvault-local as `public/media/`. `manifest.json` and `src/content/generated/` are tracked in git (small metadata files). See SERVER-INFRASTRUCTURE.md for SCP commands.
+- **Infrastructure**: cepelynvault-local, Cloudflare Tunnel for ingress, Docker for containerization. Docker registry mirror set to `mirror.gcr.io` (Cloudflare R2 blocked on this host — see SERVER-INFRASTRUCTURE.md).
 - **Domain**: buenalynch.com (live)
 
 ## API Documentation
