@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import { PageTransition } from '@/components/PageTransition/PageTransition'
 import styles from './CoworkGuide.module.css'
 
@@ -517,6 +518,13 @@ export function CoworkGuide() {
           <p>The more thought you put into these files, the less time goes to repeating yourself and the fewer tokens get burned on exploration. Context rot hits lighter because the window stays leaner.</p>
           <p>Start with one file and a few rules. See what changes. Build from there.</p>
         </section>
+
+        <div className={styles.nextGuide}>
+          <p>
+            Ready to add complexity? Check the full{' '}
+            <Link to="/dev-protocol-guide" className={styles.nextGuideLink}>Dev Protocol guide</Link>!
+          </p>
+        </div>
 
         {/* Sources */}
         <section className={styles.sources} id="sources-section">

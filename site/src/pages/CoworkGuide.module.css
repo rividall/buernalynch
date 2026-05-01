@@ -526,6 +526,32 @@
 
 .sourcesNote { font-size: 13px; color: #555; margin-top: 16px; }
 
+/* Next guide CTA */
+.nextGuide {
+  margin-top: 48px;
+  padding: 24px 28px;
+  background: rgba(192,132,252,0.06);
+  border: 1px solid rgba(192,132,252,0.18);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.nextGuide p {
+  margin: 0;
+  font-size: 16px;
+  color: var(--color-text);
+}
+
+.nextGuideLink {
+  color: var(--color-accent);
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(192,132,252,0.3);
+  transition: border-color 0.2s;
+}
+
+.nextGuideLink:hover { border-bottom-color: var(--color-accent); }
+
 /* Footer */
 .guideFooter {
   margin-top: 64px;
