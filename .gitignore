@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+
+# Claude Code local settings
+.claude/
+
+# Server infrastructure (private — not for public repo)
+docs/SERVER-INFRASTRUCTURE.md
+docs/research/server-deployment.md

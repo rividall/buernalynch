@@ -11,7 +11,7 @@ Ricardo Vidal Lynch's portfolio. Vite + React + TypeScript, self-hosted.
 | Content     | Markdown/JSON prebuild pipeline → generated TypeScript  |
 | Images      | Sharp optimization (WebP 400/800/1200w + compressed)    |
 | Routing     | React Router v7 (SPA, client-side)                      |
-| Serving     | Nginx (Docker container on cepelynvault-local)          |
+| Serving     | Nginx (Docker container, self-hosted)                   |
 | Backend     | none (static site, content baked into build)             |
 
 ## Project Structure
@@ -132,8 +132,8 @@ Each post folder contains files numbered by order of appearance in the original 
 - **Routing**: React Router v7, 12 client-side routes: `/`, `/projects`, `/projects/:slug`, `/personal` (unlinked), `/cowork-guide`, `/arduino-checklist`, `/category/:slug`, `/blog`, `/blog/:slug`, `/about`, `/contact`, plus 404.
 - **Backend pattern**: None. The content volume (13 posts, 10 pages) doesn't justify a CMS or API layer. When a backend makes sense, add a second container in docker-compose.
 - **Docker**: Multi-stage build (node:22-slim → nginx:alpine). Image optimization runs locally; Docker only runs `build-content.ts` + Vite. `npm run build` is NOT used in Docker because its `prebuild` lifecycle hook re-runs `optimize-images.ts` which would overwrite the pre-generated `image-manifest.ts`.
-- **Media deployment**: Source images and optimized images are gitignored (too large). Images are optimized locally with Sharp, then SCP'd to cepelynvault-local as `public/media/`. `manifest.json` and `src/content/generated/` are tracked in git (small metadata files). See SERVER-INFRASTRUCTURE.md for SCP commands.
-- **Infrastructure**: cepelynvault-local, Cloudflare Tunnel for ingress, Docker for containerization. Docker registry mirror set to `mirror.gcr.io` (Cloudflare R2 blocked on this host — see SERVER-INFRASTRUCTURE.md).
+- **Media deployment**: Source images and optimized images are gitignored (too large). Images are optimized locally with Sharp, then SCP'd to the server as `public/media/`. `manifest.json` and `src/content/generated/` are tracked in git (small metadata files).
+- **Infrastructure**: Self-hosted server, Cloudflare Tunnel for ingress, Docker for containerization.
 - **Domain**: buenalynch.com (live)
 
 ## API Documentation

@@ -110,7 +110,7 @@ Build plan for buenalynch.com portfolio. Each phase produces a runnable incremen
 - [x] nginx.conf with gzip, asset caching, SPA fallback
 - [x] docker-compose setup (single service, port 80, restart unless-stopped)
 - [x] Configure Cloudflare Tunnel to point at the container
-- [x] Media gitignored — optimized locally, SCP'd to cepelynvault-local, included in Docker build
+- [x] Media gitignored — optimized locally, SCP'd to server, included in Docker build
 - [x] Site live at buenalynch.com
 - [x] Docker registry mirror → mirror.gcr.io (Cloudflare R2 blocked on host)
 
